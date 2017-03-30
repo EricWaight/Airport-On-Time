@@ -40,7 +40,7 @@
             downArrow: 'wickedpicker__controls__control-down',
             close: 'wickedpicker__close',
             hoverState: 'hover-state',
-            title: 'Departure Time',
+            title: '<b>Flight Departure Time</b>',
             showSeconds: false,
             secondsInterval: 1,
             minutesInterval: 1,
