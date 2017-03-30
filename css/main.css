@@ -1,0 +1,89 @@
+
+/**********UNIVERSAL************/
+body{
+  margin: 0;
+}
+
+.wrap {
+  width: 1020px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+/**********HEADER************/
+
+header {
+  background-color: rgba(0,0,0, .85);
+	padding: 10px 0;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	z-index: 100;
+}
+
+#logo {
+    float: left;
+    padding-left: 10px
+}
+
+h1 {
+  float: left;
+  display: inline-block;
+	transition: all .2s linear;
+  padding-left: 10px;
+  color: #29ABE2;
+}
+
+/**********MAINCONTENT************/
+
+h2 {
+  text-align: center;
+  padding-top: 150px;
+}
+
+h3 {
+  color: #29ABE2;
+}
+
+p {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+#input {
+	width: 100%;
+	border: 1px solid #000000;
+	margin-bottom: 25px;
+	margin-top: 3px;
+	font-size: 1.6em;
+	color: #000000;
+  display: inline-block;
+}
+
+.button {
+  width: 214px;
+  height: 47px;
+	padding: 0;
+	transition: all .2s linear;
+	box-shadow: none;
+	border: none;
+  background-color: #1b75bb;
+  font-size: 2em;
+  color: #FFF;
+  margin-bottom: 3px;
+}
+
+.button:hover {
+  color: #fff;
+	background: #5c5c5c;
+	border: none;
+}
+
+.button:after {
+  position: absolute;
+	top: 0;
+	height: 46px;
+	content: "";
+	background-color: rgba(255,255,255, .3);
+	transition: all .1s linear;
+}
