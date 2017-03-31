@@ -9,8 +9,9 @@
   border-radius: 0.1px;
   width: 270px;
   height: 130px;
-  font-size: 14px;
+  font-size: 15px;
   display: none; }
+
   .wickedpicker__title {
     background-image: -webkit-linear-gradient(top, #ffffff 0%, #f2f2f2 100%);
     background-image: linear-gradient(to bottom, #ffffff 0%, #f2f2f2 100%);
